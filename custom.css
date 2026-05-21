@@ -1,0 +1,36 @@
+:root {
+    color-scheme: light;
+
+    --gcds-text-role-primary: light-dark(#333, #EEE);
+    --gcds-text-primary: light-dark(#333, #EEE);
+    --gcds-heading-role-primary: light-dark(#333, #EEE);
+    --gcds-footer-sub-background: light-dark(#EEE, black);
+    --gcds-signature-color-text: light-dark(black, #EEE);
+    --gcds-nav-link-home-text: light-dark(#333, #EEE);
+    --gcds-nav-link-top-nav-text: light-dark(#595959, #A1A1A1);
+    --gcds-footer-main-background: light-dark(#26374A, #16273A);
+    --gcds-footer-contextual-background: light-dark(#33465c, #23364c);
+    --gcds-link-default: light-dark(#1f497a, #5f89ba);
+}
+
+.dark {
+    color-scheme: dark;
+
+    .light-mode {
+        display: block;
+    }
+
+    .dark-mode {
+        display: none;
+    }
+
+    body {
+        background-color: black;
+    }
+}
+
+body {
+    .light-mode {
+        display: none;
+    }
+}
